@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.cambio.app"
+        versionCode = "1" 
+        version   = "1.0.0">
+
+        <name>Tipo de Cambio</name>
+
+        <description>
+            Aplicación para conocer el tipo de cambio en diversas divisas con respecto al nuevo sol (S/.).
+        </description>
+
+        <author href="http://john.orrego.org" email="john@orrego.org">
+            John Orrego
+        </author>
+        
+        <icon src="img/logo.png" />
+        <gap:plugin name="org.apache.cordova.inappbrowser" />
+        <preference name="permissions" value="none"/>
+        <preference name="phonegap-version" value="3.7.0" />
+        
+    </widget>
